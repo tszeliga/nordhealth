@@ -41,8 +41,6 @@ A modern, responsive signup form built with Nuxt 3, TypeScript, and Nord Health 
 │   └── SuccessPage.vue     # Success confirmation page
 ├── utils/
 │   └── validation.ts       # Form validation logic
-├── plugins/
-│   └── nord-components.client.ts  # Nord Health components setup
 └── app.vue                 # Main application layout
 ```
 
@@ -54,15 +52,6 @@ The application includes comprehensive validation:
 - **Password**: Required, minimum 8 characters
 - **Real-time validation**: Errors clear as user types
 - **Submit validation**: Final validation before form submission
-
-## Design Guidelines
-
-Following Nord Health Design principles:
-- Consistent spacing and typography
-- Accessible color contrast
-- Clear visual hierarchy
-- Intuitive user interactions
-- Mobile-first responsive design
 
 ## Build
 

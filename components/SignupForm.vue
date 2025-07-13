@@ -20,7 +20,7 @@
         >
           <nord-stack>
             <nord-input
-              id="email-input"
+              id="email"
               v-model="formData.email"
               name="email"
               type="email"
@@ -35,9 +35,9 @@
 
           <nord-stack>
             <nord-input
-              id="password-input"
+              id="password"
               v-model="formData.password"
-              name="password-input"
+              name="password"
               :type="showPassword ? 'text' : 'password'"
               label="Password"
               placeholder="Enter your password"
@@ -62,9 +62,9 @@
           </nord-stack>
           <nord-stack>
             <nord-checkbox
-              id="updates-checkbox"
+              id="updates"
               v-model="formData.receiveUpdates"
-              name="updates-checkbox"
+              name="updates"
               label="I would like to receive occasional product updates and announcements"
               value="updates"
               hint="You can unsubscribe at any time"
